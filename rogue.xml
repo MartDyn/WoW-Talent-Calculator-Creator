@@ -1,0 +1,11 @@
+<class>Rogue
+    <tree id="0" name="Assassination">
+        <talent index="1" name="" icon=".png" prereq="-1">
+            <rank index="1"></rank>
+            <rank index="2"></rank>
+            <rank index="3"></rank>
+            <rank index="4"></rank>
+            <rank index="5"></rank>
+        </talent>
+    </tree>
+</class>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="566.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewTalentController">
+   <children>
+      <AnchorPane fx:id="anchor" prefHeight="558.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="icon" fitHeight="45.0" fitWidth="45.0" layoutX="37.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Interface/QuestionMark.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="browse" layoutX="18.0" layoutY="72.0" mnemonicParsing="false" text="Choose Icon" />
+            <Separator layoutY="109.0" prefHeight="0.0" prefWidth="600.0" />
+            <TextArea fx:id="rank1" layoutX="13.0" layoutY="129.0" prefHeight="71.0" prefWidth="571.0" stylesheets="@TextArea.css" wrapText="true" />
+            <Label layoutX="13.0" layoutY="112.0" text="Rank 1:" />
+            <TextArea fx:id="rank2" layoutX="13.0" layoutY="217.0" prefHeight="71.0" prefWidth="571.0" stylesheets="@TextArea.css" wrapText="true" />
+            <Label layoutX="13.0" layoutY="200.0" text="Rank 2:" />
+            <TextArea fx:id="rank3" layoutX="13.0" layoutY="305.0" prefHeight="71.0" prefWidth="571.0" stylesheets="@TextArea.css" wrapText="true" />
+            <Label layoutX="13.0" layoutY="288.0" text="Rank 3:" />
+            <TextArea fx:id="rank4" layoutX="14.0" layoutY="393.0" prefHeight="71.0" prefWidth="571.0" stylesheets="@TextArea.css" wrapText="true" />
+            <Label layoutX="14.0" layoutY="376.0" text="Rank 4:" />
+            <TextArea fx:id="rank5" layoutX="15.0" layoutY="481.0" prefHeight="71.0" prefWidth="571.0" stylesheets="@TextArea.css" wrapText="true" />
+            <Label layoutX="17.0" layoutY="464.0" text="Rank 5:" />
+            <Button fx:id="finish" layoutX="464.0" layoutY="14.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="122.0" text="FINISH" />
+            <Button fx:id="cancel" layoutX="464.0" layoutY="72.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="122.0" text="Cancel" />
+            <TextField fx:id="name" layoutX="118.0" layoutY="24.0" prefHeight="25.0" prefWidth="270.0" promptText="&lt;Name Talent&gt;" />
+            <ComboBox fx:id="prereq" layoutX="118.0" layoutY="72.0" prefHeight="25.0" prefWidth="270.0" />
+            <Label fx:id="pos" layoutX="412.0" layoutY="76.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

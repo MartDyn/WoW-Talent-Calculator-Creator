@@ -1,0 +1,7 @@
+.text-area {
+    -fx-text-fill: gold ;
+}
+
+.text-area .content {
+    -fx-background-color: black ;
+}

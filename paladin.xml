@@ -1,0 +1,267 @@
+<class>Paladin
+    <tree id="0" name="Holy">
+        <talent index="1" name="Divine Strength" icon="GolemThunderClap.png" prereq="-1">
+            <rank index="1">Increases your Strength by 2%.</rank>
+            <rank index="2">Increases your Strength by 4%.</rank>
+            <rank index="3">Increases your Strength by 6%.</rank>
+            <rank index="4">Increases your Strength by 8%.</rank>
+            <rank index="5">Increases your Strength by 10%.</rank>
+        </talent>
+        <talent index="2" name="Divine Intellect" icon="Sleep.png" prereq="-1">
+            <rank index="1">Increases your total Intellect by 2%.</rank>
+            <rank index="2">Increases your total Intellect by 4%.</rank>
+            <rank index="3">Increases your total Intellect by 6%.</rank>
+            <rank index="4">Increases your total Intellect by 8%.</rank>
+            <rank index="5">Increases your total Intellect by 10%.</rank>
+        </talent>
+        <talent index="4" name="Improved Lay on Hands" icon="LayOnHands.png" prereq="-1">
+            <rank index="1">Gives the target of your Lay on Hands spell a 5% bonus to their health and all damage they deal for 2 min.  In addition, the cooldown for your Lay on Hands spell is reduced by 10 min.</rank>
+            <rank index="2">Gives the target of your Lay on Hands spell a 10% bonus to their health and all damage they deal for 2 min.  In addition, the cooldown for your Lay on Hands spell is reduced by 20 min.</rank>
+        </talent>
+        <talent index="5" name="Improved Seal of Righteousness" icon="ThunderBolt.png" prereq="-1">
+            <rank index="1">Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 5%.</rank>
+            <rank index="2">Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 10%.</rank>
+            <rank index="3">Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 15%.</rank>
+        </talent>
+        <talent index="6" name="Spiritual Focus" icon="Blink.png" prereq="-1">
+            <rank index="1">Gives your Flash of Light and Holy Light spells a 20% chance to not lose casting time when you take damage and reduces the cooldown of your Divine Favor spell by 10%.</rank>
+            <rank index="2">Gives your Flash of Light and Holy Light spells a 40% chance to not lose casting time when you take damage and reduces the cooldown of your Divine Favor spell by 20%.</rank>
+            <rank index="3">Gives your Flash of Light and Holy Light spells a 60% chance to not lose casting time when you take damage and reduces the cooldown of your Divine Favor spell by 30%.</rank>
+            <rank index="4">Gives your Flash of Light and Holy Light spells a 80% chance to not lose casting time when you take damage and reduces the cooldown of your Divine Favor spell by 40%.</rank>
+            <rank index="5">Gives your Flash of Light and Holy Light spells a 100% chance to not lose casting time when you take damage and reduces the cooldown of your Divine Favor spell by 50%.</rank>
+        </talent>
+        <talent index="8" name="Unyielding Faith" icon="UnyieldingFaith.png" prereq="-1">
+            <rank index="1">Reduces all damage you take by 10% while polymorphed or feared.</rank>
+            <rank index="2">Reduces all damage you take by 20% while polymorphed or feared.</rank>
+        </talent>
+        <talent index="9" name="Consecration" icon="InnerFire.png" prereq="-1">
+            <rank index="1">Consecrates the land beneath Paladin, doing 64 Holy damage to enemies or 128 healing to party members in the area over 8 seconds.</rank>
+        </talent>
+        <talent index="10" name="Holy Power" icon="Power.png" prereq="-1">
+            <rank index="1">Increases the critical effect chance of your Holy spells by 1%.</rank>
+            <rank index="2">Increases the critical effect chance of your Holy spells by 2%.</rank>
+            <rank index="3">Increases the critical effect chance of your Holy spells by 3%.</rank>
+            <rank index="4">Increases the critical effect chance of your Holy spells by 4%.</rank>
+            <rank index="5">Increases the critical effect chance of your Holy spells by 5%.</rank>
+        </talent>
+        <talent index="11" name="Healing Light" icon="HolyBolt.png" prereq="-1">
+            <rank index="1">Increases the amount healed by your Holy Light, Flash of Light, Consecration healing effect and Holy Shock heal spell by 4%.</rank>
+            <rank index="2">Increases the amount healed by your Holy Light, Flash of Light, Consecration healing effect and Holy Shock heal spell by 8%.</rank>
+            <rank index="3">Increases the amount healed by your Holy Light, Flash of Light, Consecration healing effect and Holy Shock heal spell by 12%.</rank>
+        </talent>
+        <talent index="13" name="Improved Concentration Aura" icon="MindSooth.png" prereq="-1">
+            <rank index="1">Increases the effect of your Concentration Aura by an additional 5%. In addition, your Concentration aura reduces the damage of the next attack against you by 25% when your spell casts get interrupted.</rank>
+            <rank index="2">Increases the effect of your Concentration Aura by an additional 10%. In addition, your Concentration aura reduces the damage of the next 2 attacks against you by 25% when your spell casts get interrupted.</rank>
+            <rank index="3">Increases the effect of your Concentration Aura by an additional 15%. In addition, your Concentration aura reduces the damage of the next 3 attacks against you by 25% when your spell casts get interrupted.</rank>
+        </talent>
+        <talent index="16" name="Paragon of Light" icon="UnyieldingFaith.png" prereq="-1">
+            <rank index="1">Increases the bonus healing of your Blessing of Light spell by 10%, and increases your healing done with Holy spells by 5% while Seal of Light is active.</rank>
+            <rank index="2">Increases the bonus healing of your Blessing of Light spell by 20%, and increases your critical strike chance with Holy spells by 6% while Seal of Light is active.</rank>
+        </talent>
+        <talent index="17" name="Divine Favor" icon="Heal.png" prereq="9">
+            <rank index="1">When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance.</rank>
+        </talent>
+        <talent index="19" name="Paragon of Wisdom" icon="ImpWisdom.png" prereq="-1">
+            <rank index="1">Increases the effect of your Blessing of Wisdom by 10%, and increases .</rank>
+            <rank index="2">Increases the duration of your Judgement of Light and Judgement of Wisdom by 20 sec.</rank>
+        </talent>
+        <talent index="22" name="Sanctified Light" icon="InfusionofLight.png" prereq="10">
+            <rank index="1">Increases the critical hit chance of your Holy Light and Holy Shock spells by 2%.</rank>
+            <rank index="2">Increases the critical hit chance of your Holy Light and Holy Shock spells by 4%.</rank>
+            <rank index="3">Increases the critical hit chance of your Holy Light and Holy Shock spells by 6%.</rank>
+        </talent>
+        <talent index="23" name="Illumination" icon="GreaterHeal.png" prereq="22">
+            <rank index="1">After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, you gain Mana equal to 50% of the base cost of the spell.</rank>
+            <rank index="2">After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, you gain Mana equal to 100% of the base cost of the spell.</rank>
+        </talent>
+        <talent index="25" name="Holy Shock" icon="SearingLight.png" prereq="17">
+            <rank index="1">Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally.</rank>
+        </talent>
+        <arrow index="14" origin="10" type="0" cap="-1"></arrow>
+        <arrow index="18" origin="10" type="0" cap="0"></arrow>
+        <arrow index="21" origin="17" type="0" cap="0"></arrow>
+        <arrow index="22" origin="22" type="-1" cap="2"></arrow>
+    </tree>
+    <tree id="1" name="Protection">
+        <talent index="0" name="Guardian's Favor" icon="SealOfProtection.png" prereq="-1">
+            <rank index="1">Reduces the cooldown of your Hand of Protection by 60 sec and increases the duration of your Hand of Freedom by 3 sec.</rank>
+            <rank index="2">Reduces the cooldown of your Hand of Protection by 120 sec and increases the duration of your Hand of Freedom by 6 sec.</rank>
+        </talent>
+        <talent index="1" name="Exemplar" icon="ReviveChampion.png" prereq="-1">
+            <rank index="1">Increases your total stats by 1%.</rank>
+            <rank index="2">Increases your total stats by 2%.</rank>
+            <rank index="3">Increases your total stats by 3%.</rank>
+            <rank index="4">Increases your total stats by 4%.</rank>
+            <rank index="5">Increases your total stats by 5%.</rank>
+        </talent>
+        <talent index="2" name="Redoubt" icon="Defend.png" prereq="-1">
+            <rank index="1">Increases your chance to block attacks with a shield by 2% and grants Mana equal to 33% of the amount blocked when you block an attack.</rank>
+            <rank index="2">Increases your chance to block attacks with a shield by 4% and grants Mana equal to 66% of the amount blocked when you block an attack.</rank>
+            <rank index="3">Increases your chance to block attacks with a shield by 6% and grants Mana equal to 100% of the amount blocked when you block an attack.</rank>
+        </talent>
+        <talent index="4" name="Blessed Protector" icon="Guardian.png" prereq="-1">
+            <rank index="1">Increases your Holy damage by 2% while you have a shield equipped.</rank>
+            <rank index="2">Increases your Holy damage by 4% while you have a shield equipped.</rank>
+            <rank index="3">Increases your Holy damage by 6% while you have a shield equipped.</rank>
+            <rank index="4">Increases your Holy damage by 8% while you have a shield equipped.</rank>
+            <rank index="5">Increases your Holy damage by 10% while you have a shield equipped.</rank>
+        </talent>
+        <talent index="7" name="Deflection" icon="Parry.png" prereq="-1">
+            <rank index="1">Increases your Parry chance by 1%.</rank>
+            <rank index="2">Increases your Parry chance by 2%.</rank>
+            <rank index="3">Increases your Parry chance by 3%.</rank>
+            <rank index="4">Increases your Parry chance by 4%.</rank>
+            <rank index="5">Increases your Parry chance by 5%.</rank>
+        </talent>
+        <talent index="8" name="Improved Hammer of Justice" icon="SealOfMight.png" prereq="-1">
+            <rank index="1">Decreases the cooldown of your Hammer of Justice spell by 5 sec.</rank>
+            <rank index="2">Decreases the cooldown of your Hammer of Justice spell by 10 sec.</rank>
+            <rank index="3">Decreases the cooldown of your Hammer of Justice spell by 15 sec.</rank>
+        </talent>
+        <talent index="9" name="Blessing of Kings" icon="MageArmor.png" prereq="1">
+            <rank index="1">Places a Blessing on the friendly target, increasing total stats by 10% for 5 min.  Players may only have one Blessing on them per Paladin at any one time.</rank>
+        </talent>
+        <talent index="10" name="Holy Shield" icon="BlessingOfProtection.png" prereq="2">
+            <rank index="1">Increases chance to block by 50% for 10 sec, and deals 30 Holy damage for each attack blocked while active.  Damage caused by Holy Shield causes 20% additional threat.  Each block expends a charge.  4 charges.</rank>
+        </talent>
+        <talent index="11" name="Shield Specialization" icon="Shield.png" prereq="10">
+            <rank index="1">Increases your chance to block attacks with a shield by 2% and the amount of damage absorbed by your shield by 10%.</rank>
+            <rank index="2">Increases your chance to block attacks with a shield by 4% and the amount of damage absorbed by your shield by 20%.</rank>
+            <rank index="3">Increases your chance to block attacks with a shield by 6% and the amount of damage absorbed by your shield by 30%.</rank>
+        </talent>
+        <talent index="13" name="Fortitude" icon="Devotion.png" prereq="-1">
+            <rank index="1">Increases your total health by your level multiplied by 3.</rank>
+            <rank index="2">Increases your total health by your level multiplied by 6.</rank>
+            <rank index="3">Increases your total health by your level multiplied by 9.</rank>
+            <rank index="4">Increases your total health by your level multiplied by 12.</rank>
+            <rank index="5">Increases your total health by your level multiplied by 15.</rank>
+        </talent>
+        <talent index="14" name="Anticipation" icon="LesserInvisibility.png" prereq="-1">
+            <rank index="1">Increases your Defense skill by 5 and reduces the chance your helpful spells will be dispelled by 8%.</rank>
+            <rank index="2">Increases your Defense skill by 10 and reduces the chance your helpful spells will be dispelled by 16%.</rank>
+            <rank index="3">Increases your Defense skill by 15 and reduces the chance your helpful spells will be dispelled by 24%.</rank>
+            <rank index="4">Increases your Defense skill by 20 and reduces the chance your helpful spells will be dispelled by 32%.</rank>
+            <rank index="5">Increases your Defense skill by 25 and reduces the chance your helpful spells will be dispelled by 40%.</rank>
+        </talent>
+        <talent index="16" name="Improved Seal of Justice" icon="SealOfWrath.png" prereq="8">
+            <rank index="1">Gives your Judgement spell a 50% chance to interrupt spellcasting on the judged enemy, if it has Judgement of Justice.</rank>
+            <rank index="2">Gives your Judgement spell a 100% chance to interrupt spellcasting on the judged enemy, if it has Judgement of Justice.</rank>
+        </talent>
+        <talent index="17" name="Fortifying Plea" icon="GuardedByTheLight.png" prereq="-1">
+            <rank index="1">Raises a protective ward. The next Fear, Stun or Knock Back effect against you will fail, using up the ward. Lasts 10 sec.</rank>
+        </talent>
+        <talent index="18" name="Improved Righteous Fury" icon="SealOfFury.png" prereq="-1">
+            <rank index="1">While .</rank>
+            <rank index="2">Your Righteous Fury spell .</rank>
+            <rank index="3">Your Righteous Fury spell .</rank>
+        </talent>
+        <talent index="21" name="Temperance" icon="PureOfHeart.png" prereq="-1">
+            <rank index="1">Reduces all damage taken by 5% while afflicted with Forbearance.</rank>
+            <rank index="2">Reduces all damage taken by 10% while afflicted with Forbearance.</rank>
+        </talent>
+        <talent index="22" name="Holy Warding" icon="ImprovedResistanceAuras.png" prereq="-1">
+            <rank index="1">Reduces all spell damage taken by 2% and Shadow, Frost or Fire damage taken by an additional 3% when the corresponding Resistance Aura is active.</rank>
+            <rank index="2">Reduces all spell damage taken by 3% and Shadow, Frost or Fire damage taken by an additional 6% when the corresponding Resistance Aura is active.</rank>
+            <rank index="3">Reduces all spell damage taken by 5% and Shadow, Frost or Fire damage taken by an additional 10% when the corresponding Resistance Aura is active.</rank>
+        </talent>
+        <talent index="25" name="Sanctuary" icon="LightningShield.png" prereq="-1">
+            <rank index="1">Protects you from death for 4 seconds after taking lethal damage. Causes Forebearance.</rank>
+        </talent>
+        <arrow index="5" origin="1" type="0" cap="0"></arrow>
+        <arrow index="6" origin="2" type="0" cap="0"></arrow>
+        <arrow index="10" origin="10" type="-1" cap="2"></arrow>
+        <arrow index="12" origin="8" type="0" cap="0"></arrow>
+    </tree>
+    <tree id="2" name="Retribution">
+        <talent index="0" name="Inquisition" icon="PersuitofJustice.png" prereq="-1">
+            <rank index="1">Ranged attacks against you, from more than 20 yds away, have a 5% chance to increase your movement speed by 30% for 3 secs.</rank>
+            <rank index="2">Ranged attacks against you, from more than 20 yds away, have a 10% chance to increase your movement speed by 30% for 3 secs.</rank>
+        </talent>
+        <talent index="1" name="Improved Seal of the Crusader" icon="HolySmite.png" prereq="-1">
+            <rank index="1">Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by 5%.</rank>
+            <rank index="2">Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by 10%.</rank>
+            <rank index="3">Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by 15%.</rank>
+        </talent>
+        <talent index="2" name="Benediction" icon="WindWalkOn.png" prereq="-1">
+            <rank index="1">Reduces the Mana cost of your instant cast spells by 3%.</rank>
+            <rank index="2">Reduces the Mana cost of your instant cast spells by 6%.</rank>
+            <rank index="3">Reduces the Mana cost of your instant cast spells by 9%.</rank>
+            <rank index="4">Reduces the Mana cost of your instant cast spells by 12%.</rank>
+            <rank index="5">Reduces the Mana cost of your instant cast spells by 15%.</rank>
+        </talent>
+        <talent index="4" name="Improved Blessing of Might" icon="FistOfJustice.png" prereq="-1">
+            <rank index="1">Increases the melee attack power bonus of your Blessing of Might by 10%.</rank>
+            <rank index="2">Increases the melee attack power bonus of your Blessing of Might by 20%.</rank>
+        </talent>
+        <talent index="5" name="Two-Handed Weapon Specialization" icon="2HandPaladin.png" prereq="-1">
+            <rank index="1">Increases the damage you deal with two-handed melee weapons by 2%.</rank>
+            <rank index="2">Increases the damage you deal with two-handed melee weapons by 4%.</rank>
+            <rank index="3">Increases the damage you deal with two-handed melee weapons by 6%.</rank>
+            <rank index="4">Increases the damage you deal with two-handed melee weapons by 8%.</rank>
+            <rank index="5">Increases the damage you deal with two-handed melee weapons by 10%.</rank>
+        </talent>
+        <talent index="6" name="Precision" icon="Ambush.png" prereq="-1">
+            <rank index="1">Increases your chance to hit with melee weapons by 1%.</rank>
+            <rank index="2">Increases your chance to hit with melee weapons by 2%.</rank>
+            <rank index="3">Increases your chance to hit with melee weapons by 3%.</rank>
+        </talent>
+        <talent index="8" name="Vindication" icon="Vindication.png" prereq="-1">
+            <rank index="1">Gives the Paladin's damaging melee attacks a chance to reduce the target's critical strike damage by 12% for 10 sec.</rank>
+            <rank index="2">Gives the Paladin's damaging melee attacks a chance to reduce the target's critical strike damage by 25% for 10 sec.</rank>
+        </talent>
+        <talent index="9" name="Conviction" icon="RetributionAura.png" prereq="-1">
+            <rank index="1">Increases your chance to get a critical strike with melee weapons by 1%.</rank>
+            <rank index="2">Increases your chance to get a critical strike with melee weapons by 2%.</rank>
+            <rank index="3">Increases your chance to get a critical strike with melee weapons by 3%.</rank>
+            <rank index="4">Increases your chance to get a critical strike with melee weapons by 4%.</rank>
+            <rank index="5">Increases your chance to get a critical strike with melee weapons by 5%.</rank>
+        </talent>
+        <talent index="10" name="Improved Judgement" icon="RighteousFury.png" prereq="-1">
+            <rank index="1">Increases your chance to hit with Judgement by 4%.</rank>
+            <rank index="2">Increases your chance to hit with Judgement by 8%.</rank>
+        </talent>
+        <talent index="11" name="Codification" icon="SpellWarding.png" prereq="-1">
+            <rank index="1">Binds the power of a Seal spell to the Paladin for 10 mins.  Code effects do not stack with their base Seal effects.</rank>
+        </talent>
+        <talent index="12" name="Eye for an Eye" icon="EyeforanEye.png" prereq="-1">
+            <rank index="1">All spell criticals against you cause 15% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.</rank>
+            <rank index="2">All spell criticals against you cause 30% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.</rank>
+        </talent>
+        <talent index="15" name="Improved Retribution Aura" icon="AuraOfLight.png" prereq="-1">
+            <rank index="1">Your Retribution Aura restores you Mana equal to 2% of the Holy damage you deal.</rank>
+            <rank index="2">Your Retribution Aura restores you Mana equal to 4% of the Holy damage you deal.</rank>
+            <rank index="3">Your Retribution Aura restores you Mana equal to 6% of the Holy damage you deal.</rank>
+            <rank index="4">Your Retribution Aura restores you Mana equal to 8% of the Holy damage you deal.</rank>
+            <rank index="5">Your Retribution Aura restores you Mana equal to 10% of the Holy damage you deal.</rank>
+        </talent>
+        <talent index="16" name="Reckoning" icon="BlessingOfStrength.png" prereq="-1">
+            <rank index="1">Gives you a 50% chance to gain an extra attack after being the victim of a critical strike.</rank>
+            <rank index="2">Gives you a 100% chance to gain an extra attack after being the victim of a critical strike.</rank>
+        </talent>
+        <talent index="17" name="Castigation" icon="Persecution.png" prereq="9">
+            <rank index="1">Increases the critical strike chance of your Judgement and Hammer of Wrath spells by 3% and an additional 7% against enemies that are stunned or incapacitated.</rank>
+            <rank index="2">Increases the critical strike chance of your Judgement and Hammer of Wrath spells by 6% and an additional 14% against enemies that are stunned or incapacitated.</rank>
+            <rank index="3">Increases the critical strike chance of your Judgement and Hammer of Wrath spells by 10% and an additional 20% against enemies that are stunned or incapacitated.</rank>
+        </talent>
+        <talent index="18" name="Adjudicator" icon="DivinePurpose.png" prereq="10">
+            <rank index="1">Gives your Judgement spell a 50% chance to refresh all Judgements on the target.</rank>
+            <rank index="2">Gives your Judgement spell a 100% chance to refresh all Judgements on the target.</rank>
+        </talent>
+        <talent index="19" name="Seal of Command" icon="InnerRage.png" prereq="-1">
+            <rank index="1">Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts 30 sec.&#13;&#13;Unleashing this Seal's energy will judge an enemy, instantly causing 97 to 105 Holy damage, plus 24 to 27 bonus Holy damage for every negative effect on the target. Bonus damage is capped at 10 effects.</rank>
+        </talent>
+        <talent index="21" name="Vengeance" icon="Avatar.png" prereq="17">
+            <rank index="1">Gives you a 1% bonus to Physical and Holy damage you deal for 15 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times.</rank>
+            <rank index="2">Gives you a 2% bonus to Physical and Holy damage you deal for 15 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times.</rank>
+            <rank index="3">Gives you a 3% bonus to Physical and Holy damage you deal for 15 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times.</rank>
+            <rank index="4">Gives you a 4% bonus to Physical and Holy damage you deal for 15 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times.</rank>
+            <rank index="5">Gives you a 5% bonus to Physical and Holy damage you deal for 15 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times.</rank>
+        </talent>
+        <talent index="25" name="Repentance" icon="PrayerOfHealing.png" prereq="-1">
+            <rank index="1">Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec.  Any damage caused will awaken the target.  Usable against Humanoids, Demons, Undead, Dragonkin and Giants.</rank>
+        </talent>
+        <arrow index="13" origin="9" type="0" cap="0"></arrow>
+        <arrow index="14" origin="10" type="0" cap="0"></arrow>
+        <arrow index="17" origin="17" type="-1" cap="0"></arrow>
+    </tree>
+</class>
